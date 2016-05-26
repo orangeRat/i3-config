@@ -160,3 +160,7 @@ exec "setxkbmap -option 'grp:alt_space_toggle'"
 bindsym XF86AudioLowerVolume exec "amixer -D pulse sset Master 5%-"
 bindsym XF86AudioRaiseVolume exec "amixer -D pulse sset Master 5%+"
 bindsym XF86AudioMute exec "amixer -D pulse sset Master toggle"
+
+# brightness 
+bindsym XF86MonBrightnessDown exec "xbacklight -dec 10"
+bindsym XF86MonBrightnessUp exec "xbacklight -inc 10"
